@@ -21,6 +21,8 @@ sh tel_donnee.sh
 
 Utilisation :<br>
 <br>
-Le fichier prepa_analyse.ipynb permet de créer un fichier temporaire.<br>
+Le fichier "Préparation des fichiers pour analyse.ipynb" permet de créer un fichier temporaire.<br>
+<br>
+
 
 
