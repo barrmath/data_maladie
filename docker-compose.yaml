@@ -19,3 +19,6 @@ services:
       - data:/var/lib/mysql
     ports:
       - "3306:3306"
+networks:
+  network-grafana: # Définition d'un réseau personnalisé
+    driver: bridge # Type de réseau
