@@ -33,4 +33,4 @@ password= "password"
 engine = sqlalchemy.create_engine("mariadb+mariadbconnector://{user}:{pw}@{host}/{db}".format(host=hostname, db=database, user=username, pw=password))
 
 # boucler sur le dataframe :
-file.to_sql('table1', engine, if_exists='replace', index=False,chunksize=1000)
+file.to_sql('data_ameli', engine, if_exists='replace', index=False,chunksize=1000)
