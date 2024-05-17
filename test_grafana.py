@@ -30,6 +30,8 @@ database= "mydatabase"
 username= "root"
 password= "password"
 
+# voir pour modifier le dataframe pour "aider grafana" Montant en million par exemple
+
 engine = sqlalchemy.create_engine("mariadb+mariadbconnector://{user}:{pw}@{host}/{db}".format(host=hostname, db=database, user=username, pw=password))
 
 # boucler sur le dataframe :
