@@ -30,7 +30,7 @@ database= "mydatabase"
 username= "root"
 password= "password"
 
-# voir pour modifier le dataframe pour "aider grafana" Montant en million par exemple
+
 # voir pour faire un fichier .env qui contient les variable d'environnement, et modifier le podman-compose aussi. enfin mettre à jour le readme et voir pour importer exporter le dashboard
 
 engine = sqlalchemy.create_engine("mariadb+mariadbconnector://{user}:{pw}@{host}/{db}".format(host=hostname, db=database, user=username, pw=password))
